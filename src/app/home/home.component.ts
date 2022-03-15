@@ -11,7 +11,7 @@ export class HomeComponent implements OnInit {
 
   selectableGrades: Array<string> = ['A', 'A-', 'B+', 'B', 'B-', 'C+', 'C', 'C-', 'D+', 'D', 'D-', 'F'];
   transcriptEntries: Array<ITranscript> = [];
-  gpaTotal: number = 0;;
+  gpaTotal: number = 0;
   transcriptForm: FormGroup;
 
   constructor(private fb: FormBuilder) {
